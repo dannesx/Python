@@ -24,11 +24,8 @@ Python é uma linguagem de programação muito usada por ser simples e prática.
 O comando `print()` é usado para mostrar algo na tela
 
 ```python
-print("Hello World!")
+print("Hello World!")  # Exibe "Hello World!"
 ```
-```
-Hello World!
-``` 
 
 Quando você executa esse código, o Python vai imprimir na tela a frase "Hello World!". Isso é útil para exibir mensagem e resultados
 
