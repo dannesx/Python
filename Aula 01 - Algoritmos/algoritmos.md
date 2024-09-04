@@ -3,7 +3,7 @@
 
 Nesta aula, vamos começar do zero, entendendo o que são algoritmos e aprendendo a usar os primeiros comandos em Python. Ao final da aula, você será capaz de criar pequenos programas interativos que realizam cálculos e exibem resultados.
 
-## 💭 O que é um Algoritmo? 💭
+## 💡 O que é um Algoritmo? 💡
 
 Um algoritmo é um conjunto de instruções que seguem uma sequência lógica para resolver um problema ou realizar uma tarefa. Ele é como uma receita de bolo: você segue os passos para alcançar um resultado final.
 
@@ -90,7 +90,7 @@ A soma é: 9
 
 Nesse código, usamos `int()` para converter a entrada do usuário (que inicialmente é uma string) em um número inteiro. Depois, realizamos a soma e mostramos o resultado
 
-## 📋 Resumo da Aula
+## 📋 Resumo da Aula 📋
 
 - **Algoritmo:** Um conjunto de passos para resolver um problema
 - **Comandos:**
