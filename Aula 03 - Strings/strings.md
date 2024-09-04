@@ -4,8 +4,6 @@
 
 Nesta aula, vamos explorar como trabalhar com strings em Python. Strings são sequências de caracteres usadas para armazenar texto, e Python oferece muitas maneiras de manipulá-las. Vamos aprender sobre concatenação, repetição, indexação, fatiamento e os métodos mais comuns que podem ser usados com strings.
 
----
-
 ## 💡 O que é uma String? 💡
 
 Uma string é uma sequência de caracteres, ou seja, um conjunto de letras, números ou símbolos. Em Python, uma string pode ser definida entre aspas simples (`'...'`) ou aspas duplas (`"..."`).
