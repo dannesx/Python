@@ -4,8 +4,6 @@
 
 Nesta aula, vamos aprender sobre funções em Python. Funções são blocos de código que realizam uma tarefa específica e podem ser reutilizados em diferentes partes do programa. Vamos explorar conceitos importantes como parâmetros, retorno de valores, parâmetros padrão, tipos de parâmetros, e como especificar o tipo de dados de um parâmetro.
 
----
-
 ## 💡 O que é uma Função? 💡
 
 Uma função é um bloco de código que pode ser chamado várias vezes. Elas são usadas para organizar o código em partes menores e mais fáceis de entender. Em Python, você define uma função com a palavra-chave `def`.
@@ -17,8 +15,6 @@ def saudacao():
 
 O código acima define uma função chamada `saudacao`. Quando chamamos `saudacao()`, ela executa o código dentro dela, que neste caso imprime "Olá, mundo!" na tela.
 
----
-
 ## ⚡ Parâmetros de Funções ⚡
 
 Parâmetros são informações que passamos para a função para que ela faça algo com esses dados. Eles são colocados entre parênteses após o nome da função.
@@ -29,8 +25,6 @@ def saudacao(nome):
 ```
 
 A função agora recebe um parâmetro chamado `nome`. Quando chamamos `saudacao("Ana")`, a função exibe "Olá, Ana!". O valor de `nome` é substituído pelo valor que passamos ao chamar a função.
-
----
 
 ## ⚡ Retorno de Valores ⚡
 
@@ -48,8 +42,6 @@ resultado = soma(3, 4)
 print(resultado)  # Exibe 7
 ```
 
----
-
 ## ⚡ Parâmetros Padrão ⚡
 
 Você pode definir um valor padrão para um parâmetro. Isso significa que, se o valor não for passado quando a função for chamada, o parâmetro usará o valor padrão.
@@ -60,8 +52,6 @@ def saudacao(nome="amigo"):
 ```
 
 Se chamarmos `saudacao()` sem passar um nome, a função exibirá "Olá, amigo!". Se passarmos um nome, como `saudacao("Maria")`, a função usará o valor fornecido.
-
----
 
 ## ⚡ Tipos de Dados de Parâmetros ⚡
 
@@ -75,8 +65,6 @@ def somar(a: int, b: int) -> int:
 O código acima define que a função `somar` espera dois parâmetros do tipo `int` (inteiro) e retorna um valor do tipo `int`. A anotação `-> int` indica o tipo de dado retornado pela função.
 
 **Observação:** As anotações de tipo são opcionais, mas tornam o código mais legível e ajudam a evitar erros.
-
----
 
 ## ⚡ Parâmetros Arbitrários ⚡
 
@@ -92,8 +80,6 @@ A função `soma_todos` pode receber qualquer número de parâmetros, e todos el
 ```python
 print(soma_todos(1, 2, 3, 4))  # Exibe 10
 ```
-
----
 
 ## 📋 Resumo da Aula 📋
 
